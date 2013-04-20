@@ -31,3 +31,5 @@ LOCAL_C_INCLUDES += \
 LOCAL_SHARED_LIBRARIES := liblog libcutils libtinyalsa libaudioutils libdl libexpat
 
 include $(BUILD_SHARED_LIBRARY)
+
+LOCAL_CFLAGS += -fno-strict-aliasing
