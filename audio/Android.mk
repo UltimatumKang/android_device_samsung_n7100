@@ -32,4 +32,4 @@ LOCAL_SHARED_LIBRARIES := liblog libcutils libtinyalsa libaudioutils libdl libex
 
 include $(BUILD_SHARED_LIBRARY)
 
-LOCAL_CFLAGS += -fno-strict-aliasing
+LOCAL_CFLAGS += -fno-strict-aliasing -Wno-error
